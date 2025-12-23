@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy New Year 2026 Twinkle ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<audio autoplay loop>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<canvas id="fireworks"></canvas>
+
+<div class="container fade-in">
+    <h1>🎆 Happy New Year 2026 🎆</h1>
+    <h2>My Love <span>Twinkle ❤️</span></h2>
+
+    <div id="countdown"></div>
+
+    <!-- Slideshow -->
+    <div class="slideshow">
+        <img id="slide" src="photos/photo1.jpg" alt="Twinkle">
+    </div>
+
+    <button onclick="showLove()">💌 A Message From My Heart</button>
+
+    <div id="surprise" class="hidden love-text">
+        <p>
+            Twinkle,<br><br>
+            Every smile of yours makes my world brighter 🌸  
+            Every moment with you feels like a blessing ✨  
+            I wish to walk into 2026 holding your hand and never letting go 💖  
+            <br><br>
+            Happy New Year, my forever ❤️
+        </p>
+    </div>
+
+    <footer class="credit heartbeat">
+        Made by <strong>Ajeet</strong> for <strong>Twinkle ❤️</strong>
+    </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+<audio id="bgMusic" loop>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+document.body.addEventListener("click", () => {
+    document.getElementById("bgMusic").play();
+}, { once: true });
+</script>
+<audio controls>
+  <source src="music.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio><audio autoplay loop>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+<audio autoplay muted loop>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+<audio autoplay loop hidden>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+<audio id="bgMusic">
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<button onclick="playMusic()">Play Music 🎵</button>
+
+<script>
+  function playMusic() {
+    document.getElementById("bgMusic").play();
+  }
+</script>
